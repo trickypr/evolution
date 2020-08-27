@@ -3,7 +3,7 @@ use std::collections::HashSet;
 use std::hash::Hash;
 
 use rand::Rng;
-
+#[derive(Clone)]
 pub struct RandomHashSet<T: Eq + Hash + Clone> {
     set: HashSet<T>,
     data: Vec<T>,

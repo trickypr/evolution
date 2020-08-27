@@ -1,5 +1,5 @@
 // Grab all of the files
-mod random_hash_set;
+pub mod random_hash_set;
 mod random_selector;
 
 // Dump them into this modules scope
